@@ -42,54 +42,54 @@
             //Console.WriteLine($"Knyga pavadinimas: {book.Name}, Autorius: {book.Author}, Isleidimo metai: {book.Date}, Isleidimo salis: {book.RealeseCountry}");
 
             //Console.WriteLine("=================================================");
-            Console.WriteLine("=================================================");
+            //Console.WriteLine("=================================================");
 
-            Car carWithBrand = new Car("BMW")
-            {
-                Doors = 5,
-                    Engine = new Engine()
-                    {
-                        Name = "V8",
-                        Description = "V8 engine",
-                        ReleaseDate = DateTime.Now,
-                    },
-                    Wheels = new List<Wheel>
-                    {
-                        new Wheel()
-                        {
-                            Brand = "Continental",
-                            Size = "R15"
-                        },
-                        new Wheel()
-                        {
-                            Brand = "Continental",
-                            Size = "R15"
-                        },
-                        new Wheel()
-                        {
-                            Brand = "Continental",
-                            Size = "R15"
-                        },
-                        new Wheel()
-                        {
-                            Brand = "Continental",
-                            Size = "R15"
-                        }
-                    }
-            };
-            Console.WriteLine($"Automobilio gamintojas: {carWithBrand.Brand}");
-            Console.WriteLine($"Duru skaicius: {carWithBrand.Doors}");            
-            Console.WriteLine($"Pagaminimo data: {carWithBrand.CreationDate}");
-            Console.WriteLine($"Variklio pavadinimas: {carWithBrand.Engine}");
-            Console.WriteLine($"Variklio aprasymas: {carWithBrand.Description}");
-            Console.WriteLine($"Variklio data: {carWithBrand.Engine.ReleaseDate}");
-            foreach(var wheel in carWithBrand.Wheels)
-            {
-                Console.WriteLine($"Ratas {wheel.Brand} ir jo dydis {wheel.Size}");
-            }
-            carWithBrand.Engine.isRunning = true;
-            EngineStatus(carWithBrand);
-            Console.WriteLine("=================================================");
+            //Car carWithBrand = new Car("BMW")
+            //{
+            //    Doors = 5,
+            //    Engine = new Engine()
+            //    {
+            //        Name = "V8",
+            //        Description = "V8 engine",
+            //        ReleaseDate = DateTime.Now,
+            //    },
+            //    Wheels = new List<Wheel>
+            //        {
+            //            new Wheel()
+            //            {
+            //                Brand = "Continental",
+            //                Size = "R15"
+            //            },
+            //            new Wheel()
+            //            {
+            //                Brand = "Continental",
+            //                Size = "R15"
+            //            },
+            //            new Wheel()
+            //            {
+            //                Brand = "Continental",
+            //                Size = "R15"
+            //            },
+            //            new Wheel()
+            //            {
+            //                Brand = "Continental",
+            //                Size = "R15"
+            //            }
+            //        }
+            //};
+            //Console.WriteLine($"Automobilio gamintojas: {carWithBrand.Brand}");
+            //Console.WriteLine($"Duru skaicius: {carWithBrand.Doors}");
+            //Console.WriteLine($"Pagaminimo data: {carWithBrand.CreationDate}");
+            //Console.WriteLine($"Variklio pavadinimas: {carWithBrand.Engine}");
+            //Console.WriteLine($"Variklio aprasymas: {carWithBrand.Engine.Description}");
+            //Console.WriteLine($"Variklio data: {carWithBrand.Engine.ReleaseDate}");
+            //foreach (var wheel in carWithBrand.Wheels)
+            //{
+            //    Console.WriteLine($"Ratas {wheel.Brand} ir jo dydis {wheel.Size}");
+            //}
+            //carWithBrand.Engine.isRunning = true;
+            //EngineStatus(carWithBrand);
+            //Console.WriteLine("=================================================");
 
             //Book book = new Book("Lietuva");
             //List<string> books = new List<string>
@@ -105,6 +105,28 @@
             //}
 
             //Console.WriteLine("=================================================");
+
+            //Store newStore = new Store();            
+            //List<string> products = new List<string>
+            //{ "Obuolys", "Mandarinas", "Grietine", "Sviestas", "Miltai", "Suris" };
+            //foreach (var product in products)
+            //{
+            //    Console.WriteLine($"Parduotuve: {newStore.ShopName} // Data: {newStore.CreationDate} // Produktas: {product}");
+            //}
+            //Console.WriteLine("======================= SECOND STORE ==========================");
+            //Store newStore2 = new Store();
+            //List<string> products2 = new List<string>
+            //{ "Obuolys", "Mandarinas", "Grietine", "Sviestas", "Miltai", "Suris" };
+            //foreach (var product in products2)
+            //{
+            //    Console.WriteLine($"Parduotuve: {newStore2.ShopName} // Data: {newStore2.CreationDate} // Produktas: {product}");
+            //}
+
+            Console.WriteLine("=================================================");
+
+
+
+            Console.WriteLine("=================================================");
         }
         
         public static void EngineStatus(Car car)
