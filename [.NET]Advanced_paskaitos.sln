@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. ClassMethods", "2. Class
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.InheritanceAndVirtualMethods", "3.InheritanceAndVirtualMethods\3.InheritanceAndVirtualMethods.csproj", "{36A82803-207C-4205-A19B-0D57898CF01F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Abstrakcijos", "4.Abstrakcijos\4.Abstrakcijos.csproj", "{723457C6-2294-40A6-AB6E-5EEB43E1C360}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.Abstrakcijos", "4.Abstrakcijos\4.Abstrakcijos.csproj", "{723457C6-2294-40A6-AB6E-5EEB43E1C360}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Abstract_uzduotys", "4.Abstract_uzduotys\4.Abstract_uzduotys.csproj", "{5B7CE940-DEF7-4610-BF5D-2921286FDE0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.Abstract_uzduotys", "4.Abstract_uzduotys\4.Abstract_uzduotys.csproj", "{5B7CE940-DEF7-4610-BF5D-2921286FDE0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Accessibility", "5. Accessibility\5. Accessibility.csproj", "{456F6EB5-BB72-4676-B5EA-E40A714057C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Streams", "6.Streams\6.Streams.csproj", "{53CDFF5B-6EE2-49E3-AD46-284DAB2601A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{5B7CE940-DEF7-4610-BF5D-2921286FDE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B7CE940-DEF7-4610-BF5D-2921286FDE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B7CE940-DEF7-4610-BF5D-2921286FDE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{456F6EB5-BB72-4676-B5EA-E40A714057C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456F6EB5-BB72-4676-B5EA-E40A714057C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456F6EB5-BB72-4676-B5EA-E40A714057C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456F6EB5-BB72-4676-B5EA-E40A714057C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53CDFF5B-6EE2-49E3-AD46-284DAB2601A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53CDFF5B-6EE2-49E3-AD46-284DAB2601A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53CDFF5B-6EE2-49E3-AD46-284DAB2601A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53CDFF5B-6EE2-49E3-AD46-284DAB2601A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

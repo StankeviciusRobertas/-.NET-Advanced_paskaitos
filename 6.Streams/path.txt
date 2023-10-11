@@ -1,0 +1,11 @@
+namespace _6.Streams
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string content = File.ReadAllText("path.txt");
+            File.WriteAllText("anotherPath.txt", content);
+        }
+    }
+}
