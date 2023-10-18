@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.Streams", "6.Streams\6.St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.1.Generics", "Advanced.1.Generics\Advanced.1.Generics.csproj", "{CCD16425-B3BD-45C8-A0E6-1E304DD4F85D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.2.Generics", "Advanced.2.Generics\Advanced.2.Generics.csproj", "{8C2AD2DC-CBC6-47E1-B9E8-A73D7D105ECD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.2.Generics", "Advanced.2.Generics\Advanced.2.Generics.csproj", "{8C2AD2DC-CBC6-47E1-B9E8-A73D7D105ECD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.3.Generics", "Advanced.3.Generics\Advanced.3.Generics.csproj", "{BB2658D0-0C69-4A8A-92B4-564ADFD0E86C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.3.Generics", "Advanced.3.Generics\Advanced.3.Generics.csproj", "{BB2658D0-0C69-4A8A-92B4-564ADFD0E86C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.4.Exception handling", "Advanced.4.Exception handling\Advanced.4.Exception handling.csproj", "{974B12CE-63A5-493F-B44C-E7AD6ADB7205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.5.Extension methods", "Advanced.5.Extension methods\Advanced.5.Extension methods.csproj", "{5D8818B6-D78E-4EBF-B120-5998D81F7040}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{BB2658D0-0C69-4A8A-92B4-564ADFD0E86C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB2658D0-0C69-4A8A-92B4-564ADFD0E86C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB2658D0-0C69-4A8A-92B4-564ADFD0E86C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{974B12CE-63A5-493F-B44C-E7AD6ADB7205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974B12CE-63A5-493F-B44C-E7AD6ADB7205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974B12CE-63A5-493F-B44C-E7AD6ADB7205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974B12CE-63A5-493F-B44C-E7AD6ADB7205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8818B6-D78E-4EBF-B120-5998D81F7040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8818B6-D78E-4EBF-B120-5998D81F7040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8818B6-D78E-4EBF-B120-5998D81F7040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8818B6-D78E-4EBF-B120-5998D81F7040}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
