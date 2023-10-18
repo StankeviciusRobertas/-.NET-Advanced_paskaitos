@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.4.Exception handli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.5.Extension methods", "Advanced.5.Extension methods\Advanced.5.Extension methods.csproj", "{5D8818B6-D78E-4EBF-B120-5998D81F7040}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.6.Delegatai", "Advanced.6.Delegatai\Advanced.6.Delegatai.csproj", "{9EE193B1-BD08-4302-A631-C5051284E6C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{5D8818B6-D78E-4EBF-B120-5998D81F7040}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D8818B6-D78E-4EBF-B120-5998D81F7040}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D8818B6-D78E-4EBF-B120-5998D81F7040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE193B1-BD08-4302-A631-C5051284E6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE193B1-BD08-4302-A631-C5051284E6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE193B1-BD08-4302-A631-C5051284E6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE193B1-BD08-4302-A631-C5051284E6C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
