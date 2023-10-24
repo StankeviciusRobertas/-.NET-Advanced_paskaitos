@@ -31,9 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.6.Delegatai", "Adv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.7.Lambda", "Advanced.7.Lambda\Advanced.7.Lambda.csproj", "{0FC610CB-4543-4BE5-8F35-0CCA8A967182}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.8.Interfaces", "Advanced.8.Interfaces\Advanced.8.Interfaces.csproj", "{8EC714A6-9AAE-4B6E-B89A-90DEC86DD478}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.8.Interfaces", "Advanced.8.Interfaces\Advanced.8.Interfaces.csproj", "{8EC714A6-9AAE-4B6E-B89A-90DEC86DD478}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.8.Comparer", "Advanced.8.Comparer\Advanced.8.Comparer.csproj", "{67D92609-BB3B-4BE5-88E6-D53414A93C69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.8.Comparer", "Advanced.8.Comparer\Advanced.8.Comparer.csproj", "{67D92609-BB3B-4BE5-88E6-D53414A93C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.8.InterfaceUzduotys", "Advanced.8.InterfaceUzduotys\Advanced.8.InterfaceUzduotys.csproj", "{72F44186-8361-4B69-85F9-7E14A112A381}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{67D92609-BB3B-4BE5-88E6-D53414A93C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67D92609-BB3B-4BE5-88E6-D53414A93C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67D92609-BB3B-4BE5-88E6-D53414A93C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F44186-8361-4B69-85F9-7E14A112A381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F44186-8361-4B69-85F9-7E14A112A381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F44186-8361-4B69-85F9-7E14A112A381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F44186-8361-4B69-85F9-7E14A112A381}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

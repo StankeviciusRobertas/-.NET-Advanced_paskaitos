@@ -12,11 +12,11 @@ namespace Advanced._8.Comparer
         public int Fuel { get; set; }
         public int MaxFuelCapacity { get; set; }  
 
-        public Car(string model, int maxFuelCapacity)
+        public Car(string model, int maxFuelCapacity, int fuel)
         {
             Model = model;
             MaxFuelCapacity = maxFuelCapacity;
-            Fuel = 0;            
+            Fuel = fuel;        
         }
 
         public void Drive()

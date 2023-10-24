@@ -9,7 +9,7 @@ namespace Advanced._8.Comparer
     internal class BmwCar : Car
     {
         public bool IsXDriver { get; set; }
-        public BmwCar(bool isXDriver, string model, int maxFuelCapacity) : base(model, maxFuelCapacity)
+        public BmwCar(bool isXDriver, string model, int maxFuelCapacity, int fuel) : base(model, maxFuelCapacity, fuel)
         {
             IsXDriver = isXDriver;
         }

@@ -38,19 +38,38 @@
 
             Console.WriteLine("======================================");
 
-            var bmw = new BmwCar(true, "Bmw", 50);
-            var audi = new AudiCar(true, "Audi", 50);
+            //var bmw = new BmwCar(true, "Bmw", 50);
+            List<BmwCar> bmw = new List<BmwCar>()
+            {
+                new BmwCar(true, "MDrive", 80, 40),                        
+                new BmwCar(true, "XDrive", 50, 10),
+                new BmwCar(false, "FullDrive", 30, 20)
+            };
 
-            bmw.Drive();
-            bmw.Refuel(30);
-            bmw.Drive();
+            foreach(BmwCar bmwCar in bmw)
+            {
+                Console.WriteLine(bmwCar.Fuel);
+            }
+            
+            Console.WriteLine("Sorted Cars by fuel");
+            Console.WriteLine();
+            bmw.Sort(new BmwCarComparer());
+            foreach(BmwCar bmwCar in bmw)
+            {
+                Console.WriteLine(bmwCar.Fuel);
+            }
+            //var audi = new AudiCar(true, "Audi", 50);
 
-            audi.Drive();
-            audi.Refuel(100);
-            audi.Drive();
-            audi.Refuel(15);
-            audi.Drive();
-                                  
-         }
+            //bmw.Drive();
+            //bmw.Refuel(30);
+            //bmw.Drive();
+
+            //audi.Drive();
+            //audi.Refuel(100);
+            //audi.Drive();
+            //audi.Refuel(15);
+            //audi.Drive();
+
+        }
     }
 }
