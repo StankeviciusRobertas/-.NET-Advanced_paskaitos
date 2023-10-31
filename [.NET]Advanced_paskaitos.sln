@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.8.Interfaces", "Ad
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.8.Comparer", "Advanced.8.Comparer\Advanced.8.Comparer.csproj", "{67D92609-BB3B-4BE5-88E6-D53414A93C69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.8.InterfaceUzduotys", "Advanced.8.InterfaceUzduotys\Advanced.8.InterfaceUzduotys.csproj", "{72F44186-8361-4B69-85F9-7E14A112A381}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.8.InterfaceUzduotys", "Advanced.8.InterfaceUzduotys\Advanced.8.InterfaceUzduotys.csproj", "{72F44186-8361-4B69-85F9-7E14A112A381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.14.AsyncProgramming", "Advanced.14.AsyncProgramming\Advanced.14.AsyncProgramming.csproj", "{E3A8AC50-9AAF-4175-B506-2E88B5F0C4FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{72F44186-8361-4B69-85F9-7E14A112A381}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72F44186-8361-4B69-85F9-7E14A112A381}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72F44186-8361-4B69-85F9-7E14A112A381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A8AC50-9AAF-4175-B506-2E88B5F0C4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A8AC50-9AAF-4175-B506-2E88B5F0C4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A8AC50-9AAF-4175-B506-2E88B5F0C4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A8AC50-9AAF-4175-B506-2E88B5F0C4FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
